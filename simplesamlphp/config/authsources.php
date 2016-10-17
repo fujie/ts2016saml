@@ -22,7 +22,7 @@ $config = array(
 
         // The entity ID of the IdP this should SP should contact.
         // Can be NULL/unset, in which case the user will be shown a list of available IdPs.
-        'idp' => 'https://login.windows.net/<your tenant domain>/saml2',
+        'idp' => 'https://sts.windows.net/<your tenant id>/',
 
         // The URL to the discovery service.
         // Can be NULL/unset, in which case a builtin discovery service will be used.
